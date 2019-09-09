@@ -47,11 +47,7 @@ body {
   height:300px;
 
 	@include media-breakpoint-up(md) {
-		height:500px;
-	}
-
-	@include media-breakpoint-up(lg) {
-		height:600px;
+		height:400px;
 	}
 
 	.container, .row {
@@ -122,11 +118,11 @@ body {
       object-fit: cover;
 
 			@include media-breakpoint-up(md) {
-				height:500px;
+				height:400px;
 			}
 
 			@include media-breakpoint-up(lg) {
-				height:600px;
+				height:400px;
 			}
 
     }
@@ -141,11 +137,11 @@ body {
 		height:300px;
 
 		@include media-breakpoint-up(md) {
-			height:500px;
+			height:400px;
 		}
 
 		@include media-breakpoint-up(lg) {
-			height:600px;
+			height:400px;
 		}
 
 	}
@@ -155,11 +151,11 @@ body {
     margin:0;
 
 		@include media-breakpoint-up(md) {
-			height:500px;
+			height:400px;
 		}
 
 		@include media-breakpoint-up(lg) {
-			height:600px;
+			height:400px;
 		}
 
   }
@@ -170,6 +166,63 @@ body {
 		@include media-breakpoint-up(md) {
 			margin-top: 30px;
 		}
+
+	}
+
+	&.home {
+
+		height:300px;
+
+		@include media-breakpoint-up(md) {
+			height:500px;
+		}
+
+		@include media-breakpoint-up(lg) {
+			height:600px;
+		}
+
+		.banner-image {
+
+	    img {
+	      height: 300px;
+
+				@include media-breakpoint-up(md) {
+					height:500px;
+				}
+
+				@include media-breakpoint-up(lg) {
+					height:600px;
+				}
+
+	    }
+
+	  }
+
+		.slide {
+			height:300px;
+
+			@include media-breakpoint-up(md) {
+				height:500px;
+			}
+
+			@include media-breakpoint-up(lg) {
+				height:600px;
+			}
+
+		}
+
+	  .slick-slider,.slick-list,.slick-track {
+	    height:300px;
+
+			@include media-breakpoint-up(md) {
+				height:500px;
+			}
+
+			@include media-breakpoint-up(lg) {
+				height:600px;
+			}
+
+	  }
 
 	}
 

@@ -4,15 +4,13 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-<section id="banner" class="slider mt-0 mb-0">
+<section id="banner" class="slider mt-0 mb-0 home">
 	<?php if( have_rows('banner_slides') ): ?>
 
 	<ul class="slides">
 
 	<?php while( have_rows('banner_slides') ): the_row();
 
-		// vars
-		//$image = get_sub_field('image');
 		$title = get_sub_field('banner_title');
 		$description = get_sub_field('banner_text');
 		$button = get_sub_field('banner_button_text');

@@ -3266,9 +3266,7 @@ body.fix { overflow: hidden; }
 
 #banner { background: #142533; color: white; height: 300px; }
 
-@media (min-width: 782px) { #banner { height: 500px; } }
-
-@media (min-width: 1200px) { #banner { height: 600px; } }
+@media (min-width: 782px) { #banner { height: 400px; } }
 
 #banner .container, #banner .row { height: 100%; }
 
@@ -3292,27 +3290,51 @@ body.fix { overflow: hidden; }
 
 #banner .banner-image img { height: 300px; width: 100%; object-fit: cover; }
 
-@media (min-width: 782px) { #banner .banner-image img { height: 500px; } }
+@media (min-width: 782px) { #banner .banner-image img { height: 400px; } }
 
-@media (min-width: 1200px) { #banner .banner-image img { height: 600px; } }
+@media (min-width: 1200px) { #banner .banner-image img { height: 400px; } }
 
 #banner .slick-slider { padding: 0; }
 
 #banner .slide { height: 300px; }
 
-@media (min-width: 782px) { #banner .slide { height: 500px; } }
+@media (min-width: 782px) { #banner .slide { height: 400px; } }
 
-@media (min-width: 1200px) { #banner .slide { height: 600px; } }
+@media (min-width: 1200px) { #banner .slide { height: 400px; } }
 
 #banner .slick-slider, #banner .slick-list, #banner .slick-track { height: 300px; margin: 0; }
 
-@media (min-width: 782px) { #banner .slick-slider, #banner .slick-list, #banner .slick-track { height: 500px; } }
+@media (min-width: 782px) { #banner .slick-slider, #banner .slick-list, #banner .slick-track { height: 400px; } }
 
-@media (min-width: 1200px) { #banner .slick-slider, #banner .slick-list, #banner .slick-track { height: 600px; } }
+@media (min-width: 1200px) { #banner .slick-slider, #banner .slick-list, #banner .slick-track { height: 400px; } }
 
 #banner .btn { margin-top: 20px; }
 
 @media (min-width: 782px) { #banner .btn { margin-top: 30px; } }
+
+#banner.home { height: 300px; }
+
+@media (min-width: 782px) { #banner.home { height: 500px; } }
+
+@media (min-width: 1200px) { #banner.home { height: 600px; } }
+
+#banner.home .banner-image img { height: 300px; }
+
+@media (min-width: 782px) { #banner.home .banner-image img { height: 500px; } }
+
+@media (min-width: 1200px) { #banner.home .banner-image img { height: 600px; } }
+
+#banner.home .slide { height: 300px; }
+
+@media (min-width: 782px) { #banner.home .slide { height: 500px; } }
+
+@media (min-width: 1200px) { #banner.home .slide { height: 600px; } }
+
+#banner.home .slick-slider, #banner.home .slick-list, #banner.home .slick-track { height: 300px; }
+
+@media (min-width: 782px) { #banner.home .slick-slider, #banner.home .slick-list, #banner.home .slick-track { height: 500px; } }
+
+@media (min-width: 1200px) { #banner.home .slick-slider, #banner.home .slick-list, #banner.home .slick-track { height: 600px; } }
 
 .blue-bg { background: #142533; color: white; }
 
