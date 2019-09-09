@@ -1,0 +1,22 @@
+/*
+Theme Name: Buytoletdeals
+*/
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight:600 !important;
+}
+
+h2 {
+
+  @include media-breakpoint-up(md) {
+    font-size:3rem !important;
+    margin-bottom:1.8rem !important;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size:3.8rem !important;
+    margin-bottom:1.8rem !important;
+  }
+
+}

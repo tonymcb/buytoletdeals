@@ -1,0 +1,46 @@
+// breakpoints
+
+$container-max-widths: (
+  sm: 540px,
+  md: 90%,
+  lg: 90%,
+  xl: 80%
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 782px,
+  lg: 1200px,
+  xl: 1600px
+);
+
+//  TYPOGRAPHY
+
+$font-family-sans-serif:  'Montserrat', sans-serif !default;
+
+//  COLOURS
+
+$black: #1d1d1b;
+$dark-blue: #142533;
+$light-blue: #a5edf0;
+$gold: #E8D7AA;
+
+
+$primary: $light-blue;
+$secondary: $gold;
+$dark: $dark-blue;
+
+// HEADINGS
+
+$headings-margin-bottom: 1rem;
+
+// BUTTONS
+
+$btn-font-weight: 600;
+$btn-padding-y: 10px;
+$btn-padding-x: 15px;
+
+// MISC
+
+$border-radius: 0 !default;

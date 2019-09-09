@@ -1,0 +1,23 @@
+ul.circle-features {
+	list-style:none;
+	padding:0;
+
+	li {
+		text-align:center;
+		margin:40px 0;
+
+		&:last-child {
+			margin-bottom:0;
+		}
+
+		span {
+			padding:0 50px;
+			display: block;
+		}
+	}
+
+	.circle-icon {
+		margin-bottom:20px;
+	}
+
+}

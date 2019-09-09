@@ -1,0 +1,13 @@
+.circle-icon {
+	@include flexbox();
+	@include justify-content(center);
+	width:95px;
+	height:95px;
+	border-radius:100%;
+	margin:0 auto;
+}
+
+.circle-icon--gold {
+	background: rgb(232,216,171);
+	background: linear-gradient(40deg, rgba(232,216,171,1) 0%, rgba(205,175,115,1) 100%);
+}

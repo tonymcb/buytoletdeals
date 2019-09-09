@@ -1,0 +1,20 @@
+// Base
+@import "base/variables";
+@import "base/mixins";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "base/font";
+@import "base/buttons";
+
+
+// Layout
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/home";
+@import "layout/footer";
+
+// Modules
+@import "modules/cards";
+@import "modules/icons";
+@import "modules/cta";
+@import "modules/circle-features";
