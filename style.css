@@ -3246,7 +3246,7 @@ h1, h2, h3, h4, h5 { font-family: 'Montserrat Alternates', sans-serif; font-weig
 
 @media (min-width: 782px) { #header .menu-top-nav-container > ul li a { color: #1d1d1b; font-size: 0.9rem; } }
 
-body { background: red; line-height: 1.8rem; }
+body { background: white; line-height: 1.8rem; }
 
 body.fix { overflow: hidden; }
 
